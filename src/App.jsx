@@ -13,6 +13,7 @@ import FileIcon from "./icons/file.svg?component";
 import ImageIcon from "./icons/image.svg?component";
 import AlertCircleIcon from "./icons/alert-circle.svg?component";
 import SettingsIcon from "./icons/settings.svg?component";
+import BarsIcon from "./icons/bars.svg?component";
 
 function App() {
   return (
@@ -122,6 +123,19 @@ function App() {
         </header>
         <main className="flex-1 overflow-y-scroll px-12">
           <div className="my-12 bg-white">
+            <nav className="flex items-center justify-between px-12 py-6">
+              <img className="h-11 w-11" src="/img/logo2.png" alt="" />
+              <div className="flex">
+                <button className="p-2">
+                  <SquarePlusIcon className="h-6 w-6 stroke-current" />
+                </button>
+                <button className="p-2">
+                  <BarsIcon className="h-6 w-6 stroke-current" />
+                </button>
+              </div>
+            </nav>
+            <section className="py-16">
+            </section>
           </div>
         </main>
       </div>
