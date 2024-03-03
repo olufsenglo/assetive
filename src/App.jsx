@@ -357,6 +357,96 @@ function App() {
               </div>
             </div>
           </Accordion>
+          <Accordion title="size">
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">W</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">H</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">Min W</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">Max W</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">Max W</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">Max H</span>
+                  </div>
+                  <input
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-right text-sm font-semibold leading-6"
+                    type="text"
+                    defaultValue="Auto"
+                  />
+                </div>
+              </div>
+              <div className="col-span-2">
+                <button className="relative w-full rounded-xl border border-gray-200 bg-gray-50 py-2 pl-4 pr-10 text-right">
+                  <div className="absolute inset-y-0 flex items-center px-4">
+                    <span className="text-sm text-gray-400">Overflow</span>
+                  </div>
+                  <span className="flex items-center justify-end gap-x-2 text-sm font-semibold leading-6">
+                    <EyeIcon className="h-5 w-5 stroke-current text-gray-400" />
+                    <span>Invisible</span>
+                  </span>
+                  <div className="absolute inset-y-0 right-0 flex items-center px-4">
+                    <ChevronDownIcon className="h-5 w-5 stroke-current text-gray-400" />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </Accordion>
         </div>
       </aside>
     </div>
