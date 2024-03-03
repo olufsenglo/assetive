@@ -447,6 +447,10 @@ function App() {
               </div>
             </div>
           </Accordion>
+          <Accordion title="typography"></Accordion>
+          <Accordion title="position"></Accordion>
+          <Accordion title="border"></Accordion>
+          <Accordion title="background"></Accordion>
         </div>
       </aside>
     </div>
