@@ -14,9 +14,16 @@ import FileIcon from "./icons/file.svg?component";
 import ImageIcon from "./icons/image.svg?component";
 import AlertCircleIcon from "./icons/alert-circle.svg?component";
 import SettingsIcon from "./icons/settings.svg?component";
+import AlignBottomIcon from "./icons/align-bottom.svg?component";
+import AlignCenterIcon from "./icons/align-center.svg?component";
+import AlignLeftIcon from "./icons/align-left.svg?component";
+import AlignRightIcon from "./icons/align-right.svg?component";
+import AlignTopIcon from "./icons/align-top.svg?component";
+import AlignMiddleIcon from "./icons/align-middle.svg?component";
 import BarsIcon from "./icons/bars.svg?component";
 import PencilIcon from "./icons/pencil.svg?component";
 import Tooltip from "./components/Tooltip";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -269,6 +276,28 @@ function App() {
               1 on this page, 7 on other pages
             </div>
           </div>
+          <Accordion title="layout">
+            <div className="flex items-center justify-between">
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignBottomIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignCenterIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignLeftIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignRightIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignTopIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+              <button className="rounded-lg border border-gray-200 p-2 hover:bg-gray-100">
+                <AlignMiddleIcon className="h-5 w-5 stroke-current text-gray-400" />
+              </button>
+            </div>
+          </Accordion>
         </div>
       </aside>
     </div>
