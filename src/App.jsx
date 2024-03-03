@@ -3,6 +3,8 @@ import LayoutIcon from "./icons/layout.svg?component";
 import Palette from "./icons/palette.svg?component";
 import FileIcon from "./icons/file.svg?component";
 import ImageIcon from "./icons/image.svg?component";
+import AlertCircleIcon from "./icons/alert-circle.svg?component";
+import SettingsIcon from "./icons/settings.svg?component";
 
 function App() {
   return (
@@ -43,6 +45,21 @@ function App() {
             <ImageIcon className="h-6 w-6 fill-current" />
           </a>
         </nav>
+        <div className="flex flex-col items-center gap-y-4 py-10">
+          <button className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100">
+            <AlertCircleIcon className="h-6 w-6 stroke-current" />
+          </button>
+          <button className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100">
+            <SettingsIcon className="h-6 w-6 stroke-current" />
+          </button>
+          <button className="mt-2 rounded-full bg-gray-100">
+            <img
+              className="h-10 w-10 object-cover rounded-full border border-gray-400"
+              src="/img/avatar.jpeg"
+              alt=""
+            />
+          </button>
+        </div>
       </aside>
       <div className="flex h-screen flex-1 flex-col">
         <header className="flex h-18 items-center justify-center gap-x-6 border-b border-gray-200 bg-white px-8">
