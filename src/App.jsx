@@ -16,6 +16,7 @@ import AlertCircleIcon from "./icons/alert-circle.svg?component";
 import SettingsIcon from "./icons/settings.svg?component";
 import BarsIcon from "./icons/bars.svg?component";
 import PencilIcon from "./icons/pencil.svg?component";
+import Tooltip from "./components/Tooltip";
 
 function App() {
   return (
@@ -30,38 +31,59 @@ function App() {
             className="group relative rounded-xl bg-gray-100 p-2 text-blue-600 hover:bg-gray-50"
           >
             <SquarePlusIcon className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Add elements <span className="text-gray-400">(A)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
             className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <LayoutIcon className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Layouts <span className="text-gray-400">(Y)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
             className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <Palette className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Themes <span className="text-gray-400">(T)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
             className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <FileIcon className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Assets <span className="text-gray-400">(S)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
             className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <ImageIcon className="h-6 w-6 fill-current" />
+            <Tooltip>
+              Images <span className="text-gray-400">(I)</span>
+            </Tooltip>
           </a>
         </nav>
         <div className="flex flex-col items-center gap-y-4 py-10">
           <button className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100">
             <AlertCircleIcon className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Help <span className="text-gray-400">(H)</span>
+            </Tooltip>
           </button>
           <button className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100">
             <SettingsIcon className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Settings <span className="text-gray-400">(T)</span>
+            </Tooltip>
           </button>
           <button className="mt-2 rounded-full bg-gray-100">
             <img
