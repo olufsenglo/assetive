@@ -176,6 +176,37 @@ function App() {
                 </button>
               </div>
             </section>
+            <section className="bg-gray-50 py-16">
+              <div className="px-12">
+                <span className="text-sm uppercase text-gray-400">
+                  Previous Projects
+                </span>
+                <div className="flex items-center justify-between">
+                  <h2 className="max-w-3xl text-4xl font-bold leading-[1.4]">
+                    My latest cool projects.
+                  </h2>
+                  <button className="rounded-full bg-white px-8 py-5 font-semibold text-blue-600">
+                    View All
+                  </button>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-8 px-12 pt-8">
+                <div className="flex aspect-square w-full items-center overflow-hidden bg-gray-100">
+                  <img
+                    className="h-full w-full object-cover"
+                    src="/img/mockup-1.png"
+                    alt=""
+                  />
+                </div>
+                <div className="flex aspect-square w-full items-center overflow-hidden bg-gray-100">
+                  <img
+                    className="h-full w-full object-cover"
+                    src="/img/mockup-2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
           </div>
         </main>
       </div>
