@@ -135,6 +135,27 @@ function App() {
               </div>
             </nav>
             <section className="py-16">
+              <div className="px-12">
+                <div className="group relative">
+                  <h1
+                    className="max-w-3xl text-5xl font-bold leading-[1.4] focus:outline-none"
+                    contentEditable
+                  >
+                    Click here edit your title.
+                  </h1>
+                </div>
+                <p className="mt-4 text-lg leading-loose text-gray-400">
+                  Start creating digital assets lorem to the moon, ipsum dolor sit amet consectetur adipisicing elit. Magnam provident ipsam omnis quae.
+                </p>
+              </div>
+              <div className="flex items-center gap-4 px-12 pt-8">
+                <button className="rounded-full bg-blue-600 px-8 py-5 font-semibold text-white">
+                  Get Inspiration
+                </button>
+                <button className="rounded-full border border-gray-200 px-8 py-5 font-semibold text-blue-600">
+                  Share your work
+                </button>
+              </div>
             </section>
           </div>
         </main>
